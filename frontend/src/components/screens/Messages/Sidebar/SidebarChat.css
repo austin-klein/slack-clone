@@ -1,0 +1,52 @@
+.sidebar-chat {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #f6f6f6;
+    cursor: pointer;
+    color: black;
+}
+
+.sidebar-chat:hover {
+    background-color: #ebebeb;
+}
+
+.chat-info {
+    margin-left: 15px;
+}
+
+.chat-info > h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  
+}
+
+form {
+    text-align: center;
+}
+
+.add-room-input {
+    width: 80%;
+    align-self: center;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline-width: 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.add-room-btn {
+    display: none;
+}
+
+.random {
+    object-fit: cover;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 15%;
+    margin-right: 10px;
+}

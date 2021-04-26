@@ -1,0 +1,43 @@
+.register-form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.register-form h1 {
+    margin-bottom: 20px;
+}
+
+.register-form .group {
+    margin-bottom: 15px;
+}
+
+.register-form .group input, .register-form .group textarea {
+    width:95%;
+    padding: 10px 7px;
+    font-size: 1.1em;
+    background-color: #ededed;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 10px 7px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.register-form button:hover {
+    background-color: rgb(0, 0, 200);
+    cursor: pointer;
+}
